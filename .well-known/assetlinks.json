@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.filescad.app",
+    "sha256_cert_fingerprints":
+    ["41:75:1A:4E:D8:45:5F:D7:F1:23:DC:FA:15:74:40:6C:96:D3:65:1B:A2:A5:AB:8B:E8:53:3D:A4:35:A6:17:22"]
+  }
+}]
