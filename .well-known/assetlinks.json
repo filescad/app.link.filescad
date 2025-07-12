@@ -1,10 +1,18 @@
-[{
-  "relation": ["delegate_permission/common.handle_all_urls"],
-  "target": {
-    "namespace": "android_app",
-    "package_name": "com.filescad.app",
-    "sha256_cert_fingerprints":
-    ["41:75:1A:4E:D8:45:5F:D7:F1:23:DC:FA:15:74:40:6C:96:D3:65:1B:A2:A5:AB:8B:E8:53:3D:A4:35:A6:17:22",
-        "22:22:09:FC:53:A0:46:7D:EB:B0:BD:44:2C:98:F4:3A:CD:7D:C3:FD:E0:52:3F:85:BB:2C:29:FD:59:A5:38:BC"]
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.filescad.app",
+      "sha256_cert_fingerprints": [
+        "41:75:1A:4E:D8:45:5F:D7:F1:23:DC:FA:15:74:40:6C:96:D3:65:1B:A2:A5:AB:8B:E8:53:3D:A4:35:A6:17:22",
+        "D7:93:C4:F3:92:65:E5:71:29:88:F7:64:47:F4:A4:BB:B1:8D:20:CF:2F:FC:E3:2F:AB:DC:7C:0B:D5:64:48:71",
+        "22:22:09:FC:53:A0:46:7D:EB:B0:BD:44:2C:98:F4:3A:CD:7D:C3:FD:E0:52:3F:85:BB:2C:29:FD:59:A5:38:BC",
+        "E6:0F:3C:B6:03:E8:F9:E8:F8:12:D0:22:05:FE:09:5C:82:76:AE:30:98:AE:E6:65:87:C1:84:44:9F:C1:85:55"
+      ]
+    }
   }
-}]
+]
